@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peso en otro Planeta</title>
+    <style>
+      body {
+        /* Esta 4 funciones de background me permiten poner una iamgen de fondo */
+        background-image: url("../carpeta con fotos/foto planetas.png"); /* Asi es como se navega por carpetas */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vamos a averiguar tu peso en otros Planetas!</h1>
+    <form>
+      <p>
+        Cuanto pesas en la Tierra?
+        <input type="text" id="txt" />
+      </p>
+      <p>
+        Cuanta es la gravedad del planeta que te interesa?
+        <input type="text" id="txt2" />
+      </p>
+      <input
+        type="button"
+        value="Averiguemos tu peso en ese planeta!"
+        id="boton"
+      />
+    </form>
+    <p id="parrafo"></p>
+    <script src="version1.js"></script>
+  </body>
+</html>

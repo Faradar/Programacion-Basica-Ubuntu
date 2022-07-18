@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer archivo HTML</title>
+    <style type="text/css">
+        body{
+            background-color: blue;
+            color: rgb(207, 109, 28);
+            font-family: Helvetica;
+        }
+        strong{
+            background-color: #FFAAAA;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola <strong>mamá ya casi</strong> aprendo.</p>
+    <p>Este es otro parrafo.</p>
+    <p id="parrafo"></p>
+    <script type="text/javascript">
+        let x = 1,
+            y = 2,
+            z = x + y,
+            parrafo = document.getElementById("parrafo");
+        parrafo.innerHTML = "El valor de Z es " + z; // Recordemos que document.write() es una mala práctica, y se usa innerHTML en su lugar.
+    </script>
+</body>
+</html>

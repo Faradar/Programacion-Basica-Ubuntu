@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dibujando en Canvas</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dibujando en Canvas</h1>
+    <form>
+      <p>
+        Cuantas lineas quieres?
+        <br /><br />
+        <input type="text" id="txt_Lineas" size="10" />
+        <br /><br />
+        En que color?
+        <br /><br />
+        <input type="color" id="clr_Lineas" />
+        <br /><br />
+        De que tamaño quieres el dibujo?
+        <br /><br />
+        <input type="text" id="txt_size" size="10" />
+        <br /><br />
+        Que pieza quieres?
+        <br /><br />
+        <select name="sele_Dibs" id="sele_Dib">
+          <option value="t">Todo</option>
+          <option value="ai">Abajo Izquierda</option>
+        </select>
+        <br /><br />
+        <input type="button" value="A Dibujar!" id="btn_Lineas" />
+      </p>
+    </form>
+    <canvas id="cnvs_Dibujo" width="300" height="300"></canvas>
+    <p>Así queda tu dibujo!</p>
+    <script src="canvas.js"></script>
+  </body>
+</html>

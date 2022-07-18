@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toma de pedidos</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bienvenido a su restaurante favorito!</h1>
+    <h2>Para tomar su pedido, por favor anote sus datos abajo.</h2>
+    <form>
+      <label for="numeroMesa">Número de mesa: </label>
+      <input type="number" id="numeroMesa" />
+      <p></p>
+      <label for="nombreApellido">Nombre y apellido: </label>
+      <input type="text" id="nombreApellido" />
+      <p></p>
+      <label for="productosSolicitados">Productos solicitados: </label>
+      <input type="text" id="productosSolicitados" />
+      <p></p>
+      <label for="cantidadProductos">Cantidad de productos: </label>
+      <input type="number" id="cantidadProductos" />
+      <p></p>
+      <input type="button" id="buttonPedido" value="Realice su pedido" />
+    </form>
+    <script src="pedidos.js"></script>
+  </body>
+</html>

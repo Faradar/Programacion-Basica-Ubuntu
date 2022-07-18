@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cajero Automático</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      .content {
+        font-size: larger;
+      }
+      .imageWith {
+        width: 1000px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bienvenido a su Cajero Automático</h1>
+    <image src="cajero.png"></image>
+    <div class="content">
+      <form>
+        <label for="txtPlata" id="label_txtPlata"></label><br />
+        <input type="number" id="txtPlata" /><br />
+        <input type="button" id="btnPlata" value="Retirala!" />
+      </form>
+      <div class="imageWith">
+        <p id="parrafo"></p>
+        <p id="parrafo2"></p>
+        <script src="cajero.js"></script>
+      </div>
+    </div>
+  </body>
+</html>

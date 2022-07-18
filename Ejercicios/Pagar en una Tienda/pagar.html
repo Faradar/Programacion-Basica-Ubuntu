@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagar en una Tienda</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registremos el precio de las prendas</h1>
+    <form>
+      <label for="ropas">Que prenda deseas comprar?</label>
+      <select name="ropa" id="ropas">
+        <option value="prendaA">Prenda A $500</option>
+        <option value="prendaB">Prenda B $1000</option>
+        <option value="prendaC">Prenda C $1500</option>
+      </select>
+      <p></p>
+      <label for="cantidadPrendas">Cuantas prendas deseas comprar?</label>
+      <input type="number" id="cantidadPrendas" />
+      <p></p>
+      <label for="nombreApellido">Nombre y Apellido</label>
+      <input type="text" id="nombreApellido" />
+      <p></p>
+      <input type="button" id="button" value="Comprar" />
+    </form>
+    <p id="textFinal"></p>
+    <script src="pagar.js"></script>
+  </body>
+</html>

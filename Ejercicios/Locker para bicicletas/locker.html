@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Locker para bicicletas</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bienvenido a su sistema de locker para su bici!</h1>
+    <h2>Aqui podrá guardar su bicicleta de forma totalmente segura.</h2>
+    <p>El valor por segundo de almacenamiento es de $100</p>
+    <form>
+      <label for="nombreUsuario">Nombre de usuario: </label>
+      <input type="text" id="nombreUsuario" />
+      <p></p>
+      <label for="numeroCasillero">Número del casillero: </label>
+      <input type="number" id="numeroCasillero" />
+      <p></p>
+      <input type="button" id="buttonDatos" value="Confirmar Datos" />
+    </form>
+    <p id="parrafoFinal"></p>
+    <p id="casillerosDisponibles"></p>
+    <p id="casillerosDisponibles2"></p>
+    <script src="locker.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso en otro Planeta</title>
+    <style> 
+        body { /* Esta 4 funciones de background me permiten poner una iamgen de fondo */
+        background-image: url("../carpeta con fotos/foto planetas.png"); /* Asi es como se navega por carpetas */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-size: 20px;
+        }
+        .content {
+            max-width: 500px;
+            margin: auto;
+        }
+        .content2{
+            text-align: center;
+        }
+        u{
+            text-decoration: underline;
+            text-decoration-color: red;
+        }
+        span{
+            width:fit-content;
+        }
+        mark{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="content2">
+        <h1><strong><u><mark>Vamos a averiguar tu peso en otros Planetas!</mark></u></strong></h1>
+        <p><mark>En la tierra no pesas lo mismo que en otros planetas.</mark></p>
+    </div>
+    <div class="content">
+    <p>
+        <ul>
+            <li><mark>Ingresa tu peso en el espacio indicado.</mark></li>
+            <li><mark>Dale click al boton de Calcular.</mark></li>
+            <li><mark>Descubre tu peso en otros planetas.</mark></li>
+        </ul>
+    </p>
+    </div>
+    <form>
+        <div class="content2">
+        <p>
+            <mark>Cuanto pesas en la Tierra?</mark><br/><br/>
+            <input type="text" id="txt"/>
+        </p>
+        <p>
+        <mark>Elegi un planeta:</mark>
+        <br/>
+        <input type="radio" name="planetas" id="marte" value="Marte">
+        <label for="marte"><mark>Marte</mark></label>
+        <input type="radio" name="planetas" id="jupiter" value="Jupiter">
+        <label for="jupiter"><mark>Jupiter</mark></label>
+        <input type="radio" name="planetas" id="luna" value="Luna">
+        <label for="luna"><mark>Luna</mark></label>
+        </p>
+        <input type="button" value="Calcular!" id="boton"/>
+    </form>
+    <h1><mark>Planetas</mark></h1>
+    <h2 id="parrafo"></h2>
+    <img id="img">
+    </div>
+    <script src="version4.js"></script>
+</body>
+</html>
