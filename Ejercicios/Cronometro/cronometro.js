@@ -27,8 +27,8 @@ setInterval(function () {
 }, 1000);
 */
 
+const limite = [60, 60, 24];
 let tipo = [0, 0, 0], // segundos, minutos, horas
-  limite = [60, 60, 24],
   txt0 = document.getElementById("txt");
 setInterval(function () {
   tipo[0]++;
