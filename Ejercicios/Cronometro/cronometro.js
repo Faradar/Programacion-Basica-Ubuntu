@@ -13,6 +13,8 @@ setInterval(function () {
   if (segundos == 60) {
     segundos = 0;
     minutos++;
+    if (minutos % 5 == 0) {
+      minutos = minutos + 10;
     } else if (minutos == 60) {
       minutos = 0;
       horas++;
